@@ -1,0 +1,10 @@
+\beamer@endinputifotherversion {3.24pt}
+\beamer@sectionintoc {2}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {2}{1}{Example Basic Slide}{3}{0}{1}
+\beamer@sectionintoc {3}{Examples}{5}{0}{2}
+\beamer@subsectionintoc {3}{1}{It's a table!!}{6}{0}{2}
+\beamer@subsectionintoc {3}{2}{HOW DO I DO MATH??}{7}{0}{2}
+\beamer@subsectionintoc {3}{3}{Everybody loves a good downsample.}{8}{0}{2}
+\beamer@subsectionintoc {3}{4}{some numbers}{9}{0}{2}
+\beamer@sectionintoc {4}{About}{10}{0}{3}
+\beamer@subsectionintoc {4}{1}{Last Slide}{10}{0}{3}
