@@ -1,10 +1,17 @@
 \beamer@endinputifotherversion {3.24pt}
 \beamer@sectionintoc {3}{Introduction}{4}{0}{1}
-\beamer@subsectionintoc {3}{1}{Example Basic Slide}{4}{0}{1}
-\beamer@sectionintoc {4}{Examples}{6}{0}{2}
-\beamer@subsectionintoc {4}{1}{It's a table!!}{7}{0}{2}
-\beamer@subsectionintoc {4}{2}{HOW DO I DO MATH??}{8}{0}{2}
-\beamer@subsectionintoc {4}{3}{Everybody loves a good downsample.}{9}{0}{2}
-\beamer@subsectionintoc {4}{4}{some numbers}{10}{0}{2}
-\beamer@sectionintoc {5}{About}{11}{0}{3}
-\beamer@subsectionintoc {5}{1}{Last Slide}{11}{0}{3}
+\beamer@subsectionintoc {3}{1}{Community Structure}{4}{0}{1}
+\beamer@sectionintoc {4}{Background}{6}{0}{2}
+\beamer@subsectionintoc {4}{1}{Graphs}{6}{0}{2}
+\beamer@sectionintoc {5}{Louvain Community Detection Algorithm}{8}{0}{3}
+\beamer@subsectionintoc {5}{1}{It's a table!!}{9}{0}{3}
+\beamer@subsectionintoc {5}{2}{HOW DO I DO MATH??}{10}{0}{3}
+\beamer@subsectionintoc {5}{3}{Everybody loves a good downsample.}{11}{0}{3}
+\beamer@subsectionintoc {5}{4}{some numbers}{12}{0}{3}
+\beamer@sectionintoc {6}{Conclusions}{13}{0}{4}
+\beamer@subsectionintoc {6}{1}{Personal Learning}{13}{0}{4}
+\beamer@subsectionintoc {6}{2}{Personal Learning}{13}{0}{4}
+\beamer@sectionintoc {7}{About}{14}{0}{5}
+\beamer@subsectionintoc {7}{1}{Last Slide}{14}{0}{5}
+\beamer@sectionintoc {8}{References}{15}{0}{6}
+\beamer@sectionintoc {9}{Gracies}{16}{0}{7}
