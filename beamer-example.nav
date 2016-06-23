@@ -51,77 +51,79 @@
 \headcommand {\beamer@subsectionentry {0}{7}{1}{12}{Modularity}}\headcommand {\beamer@subsectionpages {12}{11}}
 \headcommand {\slideentry {7}{1}{1}{12/12}{Modularity}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\beamer@subsectionentry {0}{7}{2}{13}{Properties of Modularity}}\headcommand {\beamer@subsectionpages {12}{12}}
-\headcommand {\beamer@subsectionentry {0}{7}{3}{13}{Louvain Method}}\headcommand {\beamer@subsectionpages {13}{12}}
-\headcommand {\slideentry {7}{3}{1}{13/13}{Louvain Method}{0}}
+\headcommand {\slideentry {7}{1}{2}{13/13}{Modularity}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\beamer@subsubsectionentry {0}{7}{3}{1}{14}{Phase1}}
-\headcommand {\slideentry {7}{3}{2}{14/14}{Louvain Method}{0}}
+\headcommand {\beamer@subsectionentry {0}{7}{2}{14}{Properties of Modularity}}\headcommand {\beamer@subsectionpages {12}{13}}
+\headcommand {\beamer@subsectionentry {0}{7}{3}{14}{Louvain Method}}\headcommand {\beamer@subsectionpages {14}{13}}
+\headcommand {\slideentry {7}{3}{1}{14/14}{Louvain Method}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\beamer@subsubsectionentry {0}{7}{3}{2}{15}{Phase2}}
-\headcommand {\slideentry {7}{3}{3}{15/15}{Louvain Method}{0}}
-\headcommand {\beamer@framepages {15}{15}}
-\headcommand {\beamer@subsubsectionentry {0}{7}{3}{3}{16}{Observations}}
-\headcommand {\slideentry {7}{3}{4}{16/16}{Louvain Method}{0}}
+\headcommand {\beamer@subsubsectionentry {0}{7}{3}{1}{16}{Phase1}}
+\headcommand {\slideentry {7}{3}{2}{16/16}{Louvain Method}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\beamer@subsubsectionentry {0}{7}{3}{4}{17}{Experiments}}
-\headcommand {\slideentry {7}{3}{5}{17/17}{Louvain Method}{0}}
+\headcommand {\beamer@subsubsectionentry {0}{7}{3}{2}{17}{Phase2}}
+\headcommand {\slideentry {7}{3}{3}{17/17}{Louvain Method}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\beamer@subsectionentry {0}{7}{4}{18}{Results}}\headcommand {\beamer@subsectionpages {13}{17}}
-\headcommand {\slideentry {7}{4}{1}{18/18}{Results}{0}}
+\headcommand {\beamer@subsubsectionentry {0}{7}{3}{3}{18}{Observations}}
+\headcommand {\slideentry {7}{3}{4}{18/18}{Louvain Method}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\sectionentry {8}{Visualization Module}{19}{Visualization Module}{0}}
-\headcommand {\beamer@sectionpages {12}{18}}
-\headcommand {\beamer@subsectionpages {18}{18}}
-\headcommand {\beamer@subsectionentry {0}{8}{1}{19}{Exploring State-of-the-Art}}\headcommand {\beamer@subsectionpages {19}{18}}
-\headcommand {\slideentry {8}{1}{1}{19/19}{Exploring State-of-the-Art}{0}}
+\headcommand {\beamer@subsubsectionentry {0}{7}{3}{4}{19}{Experiments}}
+\headcommand {\slideentry {7}{3}{5}{19/19}{Louvain Method}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\beamer@subsectionentry {0}{8}{2}{20}{Alchemy.js}}\headcommand {\beamer@subsectionpages {19}{19}}
-\headcommand {\slideentry {8}{2}{1}{20/20}{Alchemy.js}{0}}
+\headcommand {\beamer@subsectionentry {0}{7}{4}{20}{Results}}\headcommand {\beamer@subsectionpages {14}{19}}
+\headcommand {\slideentry {7}{4}{1}{20/20}{Results}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\beamer@subsectionentry {0}{8}{3}{21}{Experiments}}\headcommand {\beamer@subsectionpages {20}{20}}
-\headcommand {\slideentry {8}{3}{1}{21/21}{Experiments}{0}}
+\headcommand {\sectionentry {8}{Visualization Module}{21}{Visualization Module}{0}}
+\headcommand {\beamer@sectionpages {12}{20}}
+\headcommand {\beamer@subsectionpages {20}{20}}
+\headcommand {\beamer@subsectionentry {0}{8}{1}{21}{Exploring State-of-the-Art}}\headcommand {\beamer@subsectionpages {21}{20}}
+\headcommand {\slideentry {8}{1}{1}{21/21}{Exploring State-of-the-Art}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\beamer@subsectionentry {0}{8}{4}{22}{Results}}\headcommand {\beamer@subsectionpages {21}{21}}
-\headcommand {\slideentry {8}{4}{1}{22/22}{Results}{0}}
+\headcommand {\beamer@subsectionentry {0}{8}{2}{22}{Alchemy.js}}\headcommand {\beamer@subsectionpages {21}{21}}
+\headcommand {\slideentry {8}{2}{1}{22/22}{Alchemy.js}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\sectionentry {9}{Visualization Module}{23}{Visualization Module}{0}}
-\headcommand {\beamer@sectionpages {19}{22}}
-\headcommand {\beamer@subsectionpages {22}{22}}
-\headcommand {\beamer@subsectionentry {0}{9}{1}{23}{Exploring State-of-the-Art}}\headcommand {\beamer@subsectionpages {23}{22}}
-\headcommand {\slideentry {9}{1}{1}{23/23}{Exploring State-of-the-Art}{0}}
+\headcommand {\beamer@subsectionentry {0}{8}{3}{23}{Experiments}}\headcommand {\beamer@subsectionpages {22}{22}}
+\headcommand {\slideentry {8}{3}{1}{23/23}{Experiments}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\beamer@subsectionentry {0}{9}{2}{24}{Alchemy.js}}\headcommand {\beamer@subsectionpages {23}{23}}
-\headcommand {\slideentry {9}{2}{1}{24/24}{Alchemy.js}{0}}
+\headcommand {\beamer@subsectionentry {0}{8}{4}{24}{Results}}\headcommand {\beamer@subsectionpages {23}{23}}
+\headcommand {\slideentry {8}{4}{1}{24/24}{Results}{0}}
 \headcommand {\beamer@framepages {24}{24}}
-\headcommand {\beamer@subsectionentry {0}{9}{3}{25}{Experiments}}\headcommand {\beamer@subsectionpages {24}{24}}
-\headcommand {\slideentry {9}{3}{1}{25/25}{Experiments}{0}}
+\headcommand {\sectionentry {9}{Visualization Module}{25}{Visualization Module}{0}}
+\headcommand {\beamer@sectionpages {21}{24}}
+\headcommand {\beamer@subsectionpages {24}{24}}
+\headcommand {\beamer@subsectionentry {0}{9}{1}{25}{Exploring State-of-the-Art}}\headcommand {\beamer@subsectionpages {25}{24}}
+\headcommand {\slideentry {9}{1}{1}{25/25}{Exploring State-of-the-Art}{0}}
 \headcommand {\beamer@framepages {25}{25}}
-\headcommand {\beamer@subsectionentry {0}{9}{4}{26}{Results}}\headcommand {\beamer@subsectionpages {25}{25}}
-\headcommand {\slideentry {9}{4}{1}{26/26}{Results}{0}}
+\headcommand {\beamer@subsectionentry {0}{9}{2}{26}{Alchemy.js}}\headcommand {\beamer@subsectionpages {25}{25}}
+\headcommand {\slideentry {9}{2}{1}{26/26}{Alchemy.js}{0}}
 \headcommand {\beamer@framepages {26}{26}}
-\headcommand {\sectionentry {10}{Conclusions}{27}{Conclusions}{0}}
-\headcommand {\beamer@sectionpages {23}{26}}
-\headcommand {\beamer@subsectionpages {26}{26}}
-\headcommand {\beamer@subsectionentry {0}{10}{1}{27}{Personal Learning}}\headcommand {\beamer@subsectionpages {27}{26}}
-\headcommand {\beamer@subsectionentry {0}{10}{2}{27}{Personal Learning}}\headcommand {\beamer@subsectionpages {27}{26}}
-\headcommand {\slideentry {10}{2}{1}{27/27}{Personal Learning}{0}}
+\headcommand {\beamer@subsectionentry {0}{9}{3}{27}{Experiments}}\headcommand {\beamer@subsectionpages {26}{26}}
+\headcommand {\slideentry {9}{3}{1}{27/27}{Experiments}{0}}
 \headcommand {\beamer@framepages {27}{27}}
-\headcommand {\beamer@subsectionentry {0}{10}{3}{28}{Softwares and tool kits that were used}}\headcommand {\beamer@subsectionpages {27}{27}}
-\headcommand {\slideentry {10}{3}{1}{28/28}{Softwares and tool kits that were used}{0}}
+\headcommand {\beamer@subsectionentry {0}{9}{4}{28}{Results}}\headcommand {\beamer@subsectionpages {27}{27}}
+\headcommand {\slideentry {9}{4}{1}{28/28}{Results}{0}}
 \headcommand {\beamer@framepages {28}{28}}
-\headcommand {\sectionentry {11}{References}{29}{References}{0}}
-\headcommand {\beamer@sectionpages {27}{28}}
+\headcommand {\sectionentry {10}{Conclusions}{29}{Conclusions}{0}}
+\headcommand {\beamer@sectionpages {25}{28}}
 \headcommand {\beamer@subsectionpages {28}{28}}
-\headcommand {\slideentry {11}{0}{2}{29/29}{}{0}}
+\headcommand {\beamer@subsectionentry {0}{10}{1}{29}{Personal Learning}}\headcommand {\beamer@subsectionpages {29}{28}}
+\headcommand {\beamer@subsectionentry {0}{10}{2}{29}{Personal Learning}}\headcommand {\beamer@subsectionpages {29}{28}}
+\headcommand {\slideentry {10}{2}{1}{29/29}{Personal Learning}{0}}
 \headcommand {\beamer@framepages {29}{29}}
-\headcommand {\sectionentry {12}{Gracies}{30}{Gracies}{0}}
-\headcommand {\beamer@sectionpages {29}{29}}
-\headcommand {\beamer@subsectionpages {29}{29}}
-\headcommand {\slideentry {12}{0}{3}{30/30}{}{0}}
+\headcommand {\beamer@subsectionentry {0}{10}{3}{30}{Softwares and tool kits that were used}}\headcommand {\beamer@subsectionpages {29}{29}}
+\headcommand {\slideentry {10}{3}{1}{30/30}{Softwares and tool kits that were used}{0}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\beamer@partpages {1}{30}}
+\headcommand {\sectionentry {11}{References}{31}{References}{0}}
+\headcommand {\beamer@sectionpages {29}{30}}
 \headcommand {\beamer@subsectionpages {30}{30}}
-\headcommand {\beamer@sectionpages {30}{30}}
-\headcommand {\beamer@documentpages {30}}
-\headcommand {\def \inserttotalframenumber {30}}
+\headcommand {\slideentry {11}{0}{2}{31/31}{}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\sectionentry {12}{Gracies}{32}{Gracies}{0}}
+\headcommand {\beamer@sectionpages {31}{31}}
+\headcommand {\beamer@subsectionpages {31}{31}}
+\headcommand {\slideentry {12}{0}{3}{32/32}{}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\beamer@partpages {1}{32}}
+\headcommand {\beamer@subsectionpages {32}{32}}
+\headcommand {\beamer@sectionpages {32}{32}}
+\headcommand {\beamer@documentpages {32}}
+\headcommand {\def \inserttotalframenumber {31}}
