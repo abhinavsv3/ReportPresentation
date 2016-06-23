@@ -155,6 +155,10 @@ between nodes in $C_i$ and $C_j$ in the previous graph
 \subsubsection[Mode of implementation]{Mode of implementation} 
 \frame{
 \frametitle{Mode of implementation}
+The implementation of the Algorithm is in Python. pyLouvain is package that is freely available although considering the task perfomed by the project it is tough to use pyLouvain directly. Hence modifications were made to pyLouvain and some part of the code was reused. 
+\\
+The input data structure was altered. The Input file is stored in a matrix and the transpose is used to get the node set. This is  used to for a edge dictionary. 
+\\
 
 
 }
@@ -184,18 +188,51 @@ Less Overhead & & &\checkmark &  \\ \hline \hline
 	\end{table}
 }
 
-\section{Visualization Module}
-\subsection{Exploring State-of-the-Art}
-\frame{
 
-}
 \subsection{Alchemy.js}
 \frame{
-
+Alchemy needs three main units to form as an application namely: alchemy.css,
+alchemy.js and data.
+\\
+Five simple steps to connect the JSON object to draw the graph.
+\\
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{t1.png}
+	\end{figure}
+}
+\frame{
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{t2.png}
+	\end{figure}
+}
+\frame{
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{t3.png}
+	\end{figure}
+}
+\frame{
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{t4.png}
+	\end{figure}
+}
+\frame{
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{t5.png}
+	\end{figure}
+}
+\frame{
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.3]{t7.png}
+	\end{figure}
 }
 \subsection[Experiments]{Alchemy.js} \frame{}
 \subsection{Results} \frame{}
-
 
 \section{Conclusions}
 
@@ -239,9 +276,6 @@ My python programming skill has also increased along with that I have also learn
 	\frametitle{Thank you}
 Thank you for all those who supported me throughout the project.\\
 It was a Great time at Barcelona working with Prof.Ricard and Prof.Marta.
-
-\bibliographystyle{plain}
-\bibliography{mybib}{}
 
 }
 

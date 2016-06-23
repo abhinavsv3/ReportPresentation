@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.24)  23 JUN 2016 22:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.24)  23 JUN 2016 23:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -742,18 +742,6 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 LaTeX Warning: Label `fig:test_down_sampling' multiply defined.
 
-
-LaTeX Warning: Label `tbl:kramer' multiply defined.
-
-
-LaTeX Warning: Label `Louvain' multiply defined.
-
-
-LaTeX Warning: Label `communitypaper' multiply defined.
-
-
-LaTeX Warning: Label `generalcommunity' multiply defined.
-
 )
 \openout1 = `beamer-example.aux'.
 
@@ -934,7 +922,7 @@ Overfull \hbox (27.1612pt too wide) in paragraph at lines 19--19
  [][][][]  
  []
 
-<logo.png, id=102, 125.46875pt x 125.46875pt>
+<logo.png, id=74, 125.46875pt x 125.46875pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 21.
@@ -953,11 +941,8 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>]
 (./beamer-example.toc)
-Overfull \vbox (91.98013pt too high) detected at line 26
- []
-
 File: logo.png Graphic file (type png)
-<use logo.png>
+ <use logo.png>
 Package pdftex.def Info: logo.png used on input line 26.
 (pdftex.def)             Requested size: 14.2247pt x 14.22636pt.
 
@@ -1004,7 +989,7 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 
 [3
 
-] <comm.png, id=239, 621.32124pt x 460.72125pt>
+] <comm.png, id=199, 621.32124pt x 460.72125pt>
 File: comm.png Graphic file (type png)
  <use comm.png>
 Package pdftex.def Info: comm.png used on input line 54.
@@ -1060,7 +1045,7 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 
 [6
 
-] <lou.png, id=332, 823.075pt x 298.11375pt>
+] <lou.png, id=292, 823.075pt x 298.11375pt>
 File: lou.png Graphic file (type png)
  <use lou.png>
 Package pdftex.def Info: lou.png used on input line 100.
@@ -1087,7 +1072,7 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 
 [7
 
- <./lou.png>] <loustep.png, id=363, 757.83125pt x 420.57124pt>
+ <./lou.png>] <loustep.png, id=323, 757.83125pt x 420.57124pt>
 File: loustep.png Graphic file (type png)
 
 <use loustep.png>
@@ -1173,7 +1158,7 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 ]
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 167.
+Package pdftex.def Info: logo.png used on input line 164.
 (pdftex.def)             Requested size: 14.2247pt x 14.22636pt.
 
 Overfull \hbox (146.17587pt too wide) has occurred while \output is active
@@ -1190,7 +1175,7 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 ]
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 172.
+Package pdftex.def Info: logo.png used on input line 169.
 (pdftex.def)             Requested size: 14.2247pt x 14.22636pt.
 
 Overfull \hbox (146.17587pt too wide) has occurred while \output is active
@@ -1207,7 +1192,7 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 ]
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 192.
+Package pdftex.def Info: logo.png used on input line 189.
 (pdftex.def)             Requested size: 14.2247pt x 14.22636pt.
 
 Overfull \hbox (146.17587pt too wide) has occurred while \output is active
@@ -1221,10 +1206,14 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 
 [14
 
-]
+] <t1.png, id=529, 1026.83624pt x 824.07875pt>
+File: t1.png Graphic file (type png)
+ <use t1.png>
+Package pdftex.def Info: t1.png used on input line 203.
+(pdftex.def)             Requested size: 205.3636pt x 164.81282pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 195.
+Package pdftex.def Info: logo.png used on input line 203.
 (pdftex.def)             Requested size: 14.2247pt x 14.22636pt.
 
 Overfull \hbox (146.17587pt too wide) has occurred while \output is active
@@ -1238,10 +1227,15 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 
 [15
 
-]
+ <./t1.png>] <t2.png, id=560, 986.68625pt x 820.06375pt>
+File: t2.png Graphic file (type png)
+ <use t2.png>
+Package pdftex.def Info: t2.png used on input line 209.
+(pdftex.def)             Requested size: 197.33376pt x 164.00984pt.
 File: logo.png Graphic file (type png)
- <use logo.png>
-Package pdftex.def Info: logo.png used on input line 196.
+
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 209.
 (pdftex.def)             Requested size: 14.2247pt x 14.22636pt.
 
 Overfull \hbox (146.17587pt too wide) has occurred while \output is active
@@ -1255,10 +1249,15 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 
 [16
 
-]
+ <./t2.png>] <t3.png, id=591, 1003.75pt x 747.79375pt>
+File: t3.png Graphic file (type png)
+ <use t3.png>
+Package pdftex.def Info: t3.png used on input line 215.
+(pdftex.def)             Requested size: 200.74644pt x 149.55609pt.
 File: logo.png Graphic file (type png)
- <use logo.png>
-Package pdftex.def Info: logo.png used on input line 197.
+
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 215.
 (pdftex.def)             Requested size: 14.2247pt x 14.22636pt.
 
 Overfull \hbox (146.17587pt too wide) has occurred while \output is active
@@ -1272,10 +1271,15 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 
 [17
 
-]
+ <./t3.png>] <t4.png, id=621, 849.1725pt x 787.94376pt>
+File: t4.png Graphic file (type png)
+ <use t4.png>
+Package pdftex.def Info: t4.png used on input line 221.
+(pdftex.def)             Requested size: 169.83148pt x 157.58595pt.
 File: logo.png Graphic file (type png)
- <use logo.png>
-Package pdftex.def Info: logo.png used on input line 198.
+
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 221.
 (pdftex.def)             Requested size: 14.2247pt x 14.22636pt.
 
 Overfull \hbox (146.17587pt too wide) has occurred while \output is active
@@ -1289,10 +1293,15 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 
 [18
 
-]
+ <./t4.png>] <t5.png, id=651, 1147.28625pt x 805.0075pt>
+File: t5.png Graphic file (type png)
+ <use t5.png>
+Package pdftex.def Info: t5.png used on input line 227.
+(pdftex.def)             Requested size: 229.45319pt x 160.99864pt.
 File: logo.png Graphic file (type png)
- <use logo.png>
-Package pdftex.def Info: logo.png used on input line 201.
+
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 227.
 (pdftex.def)             Requested size: 14.2247pt x 14.22636pt.
 
 Overfull \hbox (146.17587pt too wide) has occurred while \output is active
@@ -1306,10 +1315,15 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 
 [19
 
-]
+ <./t5.png>] <t7.png, id=681, 899.36pt x 726.715pt>
+File: t7.png Graphic file (type png)
+ <use t7.png>
+Package pdftex.def Info: t7.png used on input line 233.
+(pdftex.def)             Requested size: 269.81007pt x 218.01617pt.
 File: logo.png Graphic file (type png)
- <use logo.png>
-Package pdftex.def Info: logo.png used on input line 202.
+
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 233.
 (pdftex.def)             Requested size: 14.2247pt x 14.22636pt.
 
 Overfull \hbox (146.17587pt too wide) has occurred while \output is active
@@ -1323,10 +1337,10 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 
 [20
 
-]
+ <./t7.png>]
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 203.
+Package pdftex.def Info: logo.png used on input line 234.
 (pdftex.def)             Requested size: 14.2247pt x 14.22636pt.
 
 Overfull \hbox (146.17587pt too wide) has occurred while \output is active
@@ -1343,7 +1357,7 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 ]
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 204.
+Package pdftex.def Info: logo.png used on input line 235.
 (pdftex.def)             Requested size: 14.2247pt x 14.22636pt.
 
 Overfull \hbox (146.17587pt too wide) has occurred while \output is active
@@ -1360,7 +1374,7 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 ]
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 217.
+Package pdftex.def Info: logo.png used on input line 247.
 (pdftex.def)             Requested size: 14.2247pt x 14.22636pt.
 
 Overfull \hbox (146.17587pt too wide) has occurred while \output is active
@@ -1377,7 +1391,7 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 ]
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 229.
+Package pdftex.def Info: logo.png used on input line 259.
 (pdftex.def)             Requested size: 14.2247pt x 14.22636pt.
 
 Overfull \hbox (146.17587pt too wide) has occurred while \output is active
@@ -1394,7 +1408,7 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 ] (./beamer-example.bbl)
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 241.
+Package pdftex.def Info: logo.png used on input line 271.
 (pdftex.def)             Requested size: 14.2247pt x 14.22636pt.
 
 Overfull \hbox (146.17587pt too wide) has occurred while \output is active
@@ -1409,29 +1423,10 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 [25
 
  </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>]
-(./beamer-example.bblpdfTeX warning (ext4): destination with the same identifie
-r (name{beamerbibLouvain}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.3 \bibitem{Louvain}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{beamerbibcommunitypaper}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.9 \bibitem{communitypaper}
-                            pdfTeX warning (ext4): destination with the same id
-entifier (name{beamerbibgeneralcommunity}) has been already used, duplicate ign
-ored
-<to be read again> 
-                   \relax 
-l.14 \bibitem{generalcommunity}
-                               )
-Overfull \vbox (18.44646pt too high) detected at line 253
- []
-
 File: logo.png Graphic file (type png)
+
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 253.
+Package pdftex.def Info: logo.png used on input line 280.
 (pdftex.def)             Requested size: 14.2247pt x 14.22636pt.
 
 Overfull \hbox (146.17587pt too wide) has occurred while \output is active
@@ -1455,24 +1450,24 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `beamer-example.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 255.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 255.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 282.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 282.
  (./beamer-example.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 255.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 255.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 282.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 282.
 Package rerunfilecheck Info: File `beamer-example.out' has not changed.
-(rerunfilecheck)             Checksum: E4038CE1A426CF120FBFD4EFDAC0DB50;1353.
+(rerunfilecheck)             Checksum: 53800C98CD637065002E5D7418C97065;895.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 255.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 282.
  ) 
 Here is how much of TeX's memory you used:
- 18392 strings out of 495028
- 349414 string characters out of 6181497
- 421526 words of memory out of 5000000
- 21065 multiletter control sequences out of 15000+600000
+ 18387 strings out of 495028
+ 349242 string characters out of 6181497
+ 418512 words of memory out of 5000000
+ 21063 multiletter control sequences out of 15000+600000
  32457 words of font info for 69 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,17n,72p,403b,659s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1482,10 +1477,10 @@ f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/helvetic/uhvro8a.pfb>
-Output written on beamer-example.pdf (26 pages, 388504 bytes).
+Output written on beamer-example.pdf (26 pages, 1081169 bytes).
 PDF statistics:
- 944 PDF objects out of 1000 (max. 8388607)
- 881 compressed objects within 9 object streams
- 88 named destinations out of 1000 (max. 500000)
- 251 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 920 PDF objects out of 1000 (max. 8388607)
+ 845 compressed objects within 9 object streams
+ 81 named destinations out of 1000 (max. 500000)
+ 225 words of extra memory for PDF output out of 10000 (max. 10000000)
 
