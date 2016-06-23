@@ -1,5 +1,10 @@
 \begin{thebibliography}{1}
 
+\bibitem{communitypaper}
+Santo Fortunato.
+\newblock Community detection in graphs.
+\newblock {\em Physics reports}, 486(3):75--174, 2010.
+
 \bibitem{snapnets}
 Jure Leskovec and Andrej Krevl.
 \newblock {SNAP Datasets}: {Stanford} large network dataset collection.
