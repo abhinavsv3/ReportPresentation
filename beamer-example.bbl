@@ -5,9 +5,10 @@ Santo Fortunato.
 \newblock Community detection in graphs.
 \newblock {\em Physics reports}, 486(3):75--174, 2010.
 
-\bibitem{snapnets}
-Jure Leskovec and Andrej Krevl.
-\newblock {SNAP Datasets}: {Stanford} large network dataset collection.
-\newblock \url{http://snap.stanford.edu/data}, June 2014.
+\bibitem{generalcommunity}
+Stanislav Sobolevsky, Riccardo Campari, Alexander Belyi, and Carlo Ratti.
+\newblock General optimization technique for high-quality community detection
+  in complex networks.
+\newblock {\em Physical Review E}, 90(1):012811, 2014.
 
 \end{thebibliography}

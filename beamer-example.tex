@@ -3,6 +3,8 @@
 \usetheme{Hokie}
 \usepackage{palatino}
 \usepackage{amsmath}
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
 
 \title{Graph Algorithms for  Visualizing High Dimensional Data}
 \author{Abhinav Shankaranarayanan Venkataraman}
@@ -108,23 +110,45 @@ The project is
 \frame
 {
 	\frametitle{Graph}
+\begin{theorem}
 	A Graph $G$ is formed by two finite sets, the set \textit{V} = \{ $v_1,v_2, \ldots ,v_n$ \} of vertices(also called nodes) and the set \textit{E} = \{ $e_1,e_2, \ldots,e_n$  \} of edges where each edge is a pair of vertices from \textit{V}, for instance,
 \begin{center}
 $e_i = (v_j,v_k)$
 \end{center}
 is an edge from $v_j$ to $v_k$ represented as \textit{G}=(\textit{V},\textit{E}).
+\end{theorem}
 }
 
 \section{State-of-the-art in Community Detection}
 \frame{
 \frametitle{State-of-the-art in Community Detection}
-
+				\begin{figure}
+	\centering
+	\includegraphics[scale=0.3]{lou.png}
+	\caption{Exploring state of the art: \cite{generalcommunity}}
+	\label{fig:test_down_sampling}
+	\end{figure}
+	
 }
 \section{State-of-the-art in Visualization}
 \frame{
 \frametitle{State-of-the-art in Visualization}
+\begin{table}
+	\centering
+	\begin{tabular}{|c|c|c|c|c|} \hline \hline
+	     & Protovis.js         & D3.js & Alchemy.js & Gephi      \\ \hline \hline
+ JavaScript  & \checkmark   &\checkmark & \checkmark &  \\ \hline \hline
+ JSON Object & \checkmark  &\checkmark &\checkmark & \\ \hline \hline
+ Robust & &\checkmark & & \checkmark  \\ \hline \hline
+Less Overhead & & &\checkmark &  \\ \hline \hline
+	
+	\end{tabular}
+	\caption{Comparing Visualization methods}
+	\label{tbl:kramer}
+	\end{table}
 }
 \section{Louvain Community Detection Algorithm}
+
 \subsection{Modularity}
 
 \frame
@@ -135,7 +159,10 @@ is an edge from $v_j$ to $v_k$ represented as \textit{G}=(\textit{V},\textit{E})
 }
 \subsection{Properties of Modularity}
 
-\subsection{Louvain Method} \frame{}
+\subsection{Louvain Method} \frame{
+
+
+}
 \subsubsection[Phase1]{Louvain Method} \frame{}
 \subsubsection[Phase2]{Louvain Method} \frame{}
 \subsubsection[Observations]{Louvain Method} \frame{}
@@ -204,6 +231,7 @@ My python programming skill has also increased along with that I have also learn
 	\frametitle{Thank you}
 Thank you for all those who supported me throughout the project.\\
 It was a Great time at Barcelona working with Prof.Ricard and Prof.Marta.
+
 \bibliographystyle{plain}
 \bibliography{mybib}{}
 }
