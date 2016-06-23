@@ -15,24 +15,24 @@
 \beamer@subsectionintoc {7}{1}{Modularity}{12}{0}{7}
 \beamer@subsectionintoc {7}{2}{Properties of Modularity}{14}{0}{7}
 \beamer@subsectionintoc {7}{3}{Louvain Method}{14}{0}{7}
-\beamer@subsubsectionintoc {7}{3}{1}{Louvain Method}{16}{0}{7}
-\beamer@subsubsectionintoc {7}{3}{2}{Louvain Method}{17}{0}{7}
-\beamer@subsubsectionintoc {7}{3}{3}{Louvain Method}{18}{0}{7}
-\beamer@subsubsectionintoc {7}{3}{4}{Louvain Method}{19}{0}{7}
-\beamer@subsectionintoc {7}{4}{Results}{20}{0}{7}
-\beamer@sectionintoc {8}{Visualization Module}{21}{0}{8}
-\beamer@subsectionintoc {8}{1}{Exploring State-of-the-Art}{21}{0}{8}
-\beamer@subsectionintoc {8}{2}{Alchemy.js}{22}{0}{8}
-\beamer@subsectionintoc {8}{3}{Alchemy.js}{23}{0}{8}
-\beamer@subsectionintoc {8}{4}{Results}{24}{0}{8}
-\beamer@sectionintoc {9}{Visualization Module}{25}{0}{9}
-\beamer@subsectionintoc {9}{1}{Exploring State-of-the-Art}{25}{0}{9}
-\beamer@subsectionintoc {9}{2}{Alchemy.js}{26}{0}{9}
-\beamer@subsectionintoc {9}{3}{Alchemy.js}{27}{0}{9}
-\beamer@subsectionintoc {9}{4}{Results}{28}{0}{9}
-\beamer@sectionintoc {10}{Conclusions}{29}{0}{10}
-\beamer@subsectionintoc {10}{1}{Personal Learning}{29}{0}{10}
-\beamer@subsectionintoc {10}{2}{Personal Learning}{29}{0}{10}
-\beamer@subsectionintoc {10}{3}{Softwares and tool kits that were used}{30}{0}{10}
-\beamer@sectionintoc {11}{References}{31}{0}{11}
-\beamer@sectionintoc {12}{Gracies}{32}{0}{12}
+\beamer@subsubsectionintoc {7}{3}{1}{Louvain Method}{17}{0}{7}
+\beamer@subsubsectionintoc {7}{3}{2}{Louvain Method}{18}{0}{7}
+\beamer@subsubsectionintoc {7}{3}{3}{Louvain Method}{19}{0}{7}
+\beamer@subsubsectionintoc {7}{3}{4}{Louvain Method}{20}{0}{7}
+\beamer@subsectionintoc {7}{4}{Results}{21}{0}{7}
+\beamer@sectionintoc {8}{Visualization Module}{22}{0}{8}
+\beamer@subsectionintoc {8}{1}{Exploring State-of-the-Art}{22}{0}{8}
+\beamer@subsectionintoc {8}{2}{Alchemy.js}{23}{0}{8}
+\beamer@subsectionintoc {8}{3}{Alchemy.js}{24}{0}{8}
+\beamer@subsectionintoc {8}{4}{Results}{25}{0}{8}
+\beamer@sectionintoc {9}{Visualization Module}{26}{0}{9}
+\beamer@subsectionintoc {9}{1}{Exploring State-of-the-Art}{26}{0}{9}
+\beamer@subsectionintoc {9}{2}{Alchemy.js}{27}{0}{9}
+\beamer@subsectionintoc {9}{3}{Alchemy.js}{28}{0}{9}
+\beamer@subsectionintoc {9}{4}{Results}{29}{0}{9}
+\beamer@sectionintoc {10}{Conclusions}{30}{0}{10}
+\beamer@subsectionintoc {10}{1}{Personal Learning}{30}{0}{10}
+\beamer@subsectionintoc {10}{2}{Personal Learning}{30}{0}{10}
+\beamer@subsectionintoc {10}{3}{Softwares and tool kits that were used}{31}{0}{10}
+\beamer@sectionintoc {11}{References}{32}{0}{11}
+\beamer@sectionintoc {12}{Gracies}{33}{0}{12}

@@ -2,56 +2,54 @@ This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: beamer-example.aux
 The style file: plain.bst
-Illegal, another \bibstyle command---line 188 of file beamer-example.aux
+Illegal, another \bibstyle command---line 192 of file beamer-example.aux
  : \bibstyle
  :          {plain}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 189 of file beamer-example.aux
+Illegal, another \bibdata command---line 193 of file beamer-example.aux
  : \bibdata
  :         {mybib}
 I'm skipping whatever remains of this command
 Database file #1: mybib.bib
-Warning--I didn't find a database entry for "communitypaper"
-Warning--I didn't find a database entry for "generalcommunity"
-You've used 0 entries,
+You've used 3 entries,
             2118 wiz_defined-function locations,
-            499 strings with 4036 characters,
-and the built_in function-call counts, 18 in all, are:
-= -- 0
-> -- 0
+            522 strings with 4547 characters,
+and the built_in function-call counts, 1054 in all, are:
+= -- 99
+> -- 53
 < -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
++ -- 21
+- -- 18
+* -- 89
+:= -- 187
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 18
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 3
+duplicate$ -- 33
+empty$ -- 79
+format.name$ -- 18
+if$ -- 208
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 18
+num.names$ -- 6
+pop$ -- 12
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 15
 quote$ -- 0
-skip$ -- 1
+skip$ -- 21
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 73
+swap$ -- 3
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 12
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
+while$ -- 10
+width$ -- 4
+write$ -- 35
 (There were 2 error messages)
