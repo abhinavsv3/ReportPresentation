@@ -22,7 +22,14 @@
 
 \section[Outline]{Outline}
 \frame{
-\tableofcontents
+\frametitle{Outline}
+\begin{enumerate}
+\item Introduction
+\item Community Detection
+\item Visualization Module
+\item Overall system
+\item Conclusion
+\end{enumerate}
 }
 
 \section*{Project Details}
@@ -155,9 +162,14 @@ between nodes in $C_i$ and $C_j$ in the previous graph
 \subsubsection[Mode of implementation]{Mode of implementation} 
 \frame{
 \frametitle{Mode of implementation}
-The implementation of the Algorithm is in Python. pyLouvain is code that is freely available although considering the task perfomed by the project it is tough to use pyLouvain directly. Hence modifications were made to pyLouvain and some part of the code was reused. 
-\\
-The input data structure was altered. The Input file is stored in a matrix and its transpose is used to get the node set. This is  used to for a edge dictionary. 
+\begin{enumerate}
+
+\item The implementation of the Algorithm is in Python. pyLouvain is code that is freely available although considering the task performed by the project it is tough to use pyLouvain directly. Hence modifications were made to pyLouvain and some part of the code was reused. 
+
+\item  The input data structure was altered. The Input file is stored in a matrix and its transpose is used to get the node set. This is  used to for a edge dictionary. 
+
+\item  The first phase of pyLouvain is used as it is in the project and the second phase has been modified in the manner that relabelling is done.
+\end{enumerate}
 }
 
 \subsubsection[Experiments]{Louvain Method} 
@@ -257,10 +269,16 @@ alchemy.js and data.
 	\includegraphics[scale=0.2]{t7.png}
 	\end{figure}
 }
-\subsection[Experiments]{Alchemy.js} \frame{}
-\subsection{Results} \frame{}
-
 \section{Overall System}
+\frame{
+\frametitle{Web framework and Front-end}
+\begin{enumerate}
+\item Django, Grok and Web.py 
+\item Angular.js was recommended by the main project
+\item Bootstrap was used as the front-end framework.
+
+\end{enumerate}
+}
 \frame{
 \frametitle{How it works?}
 	\begin{figure}
@@ -269,17 +287,64 @@ alchemy.js and data.
 	\end{figure}
 }
 
-\section{Conclusions}
+\frame{
+\frametitle{How it works?}
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{s1.png}
+	\end{figure}
+}
 
+\frame{
+\frametitle{How it works?}
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{s2.png}
+	\end{figure}
+}
+
+\frame{
+\frametitle{How it works?}
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{s4.png}
+	\end{figure}
+}
+
+\frame{
+\frametitle{How it works?}
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{serr.png}
+	\end{figure}
+}
+\section{Conclusions}
+\frame{
+\frametitle{Conclusion}
+\begin{enumerate}
+\item In the project we have surveyed a few algorithms that aim in community
+finding keeping in mind that the input
+is taken from health care domain.
+\item Louvain Community detection algorithm was chosen for community detection and for visualization. Alchemy.js were selected after considering
+the input and a few state of the art algorithms.
+\item The algorithms and frameworks thus found were implemented and tests
+were conducted for finding the efficiency of the algorithms.
+\item A GUI implementing Web.py and Bootstrap was created combining the
+visualization and the computation.
+\end{enumerate}
+
+}
+
+\frame
+{
+	\frametitle{Questions?}
+
+}
 \subsection{Personal Learning}
 \frame
 {
 	\frametitle{Personal Learning}
-The project gave a huge scope for exploring many softwares and trying out several of them. It gave an oppurtunity for me to learn Python to depth. My interest foe Data visualization and graph algorithms has increased. By trying a web application I got accustomed to using web frameworks and web technologies. 
-Since the project had more scope for exploration.
-My interest in Data Visualization has increased.
-My interest in graphs has increased.
-My python programming skill has also increased along with that I have also learned to code for web technologies on my own.
+The project gave a huge scope for exploring many softwares and trying out several of them. It gave an opportunity for me to learn Python to depth. My interest for Data visualization and graph algorithms has increased. By trying a web application I got accustomed to using web frameworks and web technologies. 
 }
 
 \subsection{Softwares and tool kits that were used}
