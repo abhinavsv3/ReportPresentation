@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.24)  24 JUN 2016 06:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.24)  25 JUN 2016 09:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1536,7 +1536,7 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 ]
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 342.
+Package pdftex.def Info: logo.png used on input line 348.
 (pdftex.def)             Requested size: 14.2247pt x 14.22636pt.
 
 Overfull \hbox (146.17587pt too wide) has occurred while \output is active
@@ -1553,7 +1553,7 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 ]
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 348.
+Package pdftex.def Info: logo.png used on input line 353.
 (pdftex.def)             Requested size: 14.2247pt x 14.22636pt.
 
 Overfull \hbox (146.17587pt too wide) has occurred while \output is active
@@ -1584,7 +1584,7 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 
 [32
 
-] (./beamer-example.bbl)
+]
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 372.
@@ -1601,11 +1601,10 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 
 [33
 
- </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>]
+] (./beamer-example.bbl)
 File: logo.png Graphic file (type png)
-
-<use logo.png>
-Package pdftex.def Info: logo.png used on input line 381.
+ <use logo.png>
+Package pdftex.def Info: logo.png used on input line 384.
 (pdftex.def)             Requested size: 14.2247pt x 14.22636pt.
 
 Overfull \hbox (146.17587pt too wide) has occurred while \output is active
@@ -1619,6 +1618,24 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 
 [34
 
+ </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>]
+File: logo.png Graphic file (type png)
+
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 393.
+(pdftex.def)             Requested size: 14.2247pt x 14.22636pt.
+
+Overfull \hbox (146.17587pt too wide) has occurred while \output is active
+ [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (27.1612pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[35
+
 ]
 \tf@nav=\write6
 \openout6 = `beamer-example.nav'.
@@ -1629,24 +1646,24 @@ Overfull \hbox (27.1612pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `beamer-example.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 383.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 383.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 395.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 395.
  (./beamer-example.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 383.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 383.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 395.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 395.
 Package rerunfilecheck Info: File `beamer-example.out' has not changed.
-(rerunfilecheck)             Checksum: 1933E13DFED9DDECC6B47C3E2C36C027;827.
+(rerunfilecheck)             Checksum: BE2C39F68B87C290ADB42CE7BA9359FB;827.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 383.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 395.
  ) 
 Here is how much of TeX's memory you used:
- 18402 strings out of 495028
- 348108 string characters out of 6181497
- 418511 words of memory out of 5000000
- 21057 multiletter control sequences out of 15000+600000
+ 18406 strings out of 495028
+ 348145 string characters out of 6181497
+ 418512 words of memory out of 5000000
+ 21059 multiletter control sequences out of 15000+600000
  30697 words of font info for 67 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,17n,55p,403b,659s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1656,10 +1673,10 @@ f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/helvetic/uhvro8a.pfb>
-Output written on beamer-example.pdf (34 pages, 1466254 bytes).
+Output written on beamer-example.pdf (35 pages, 1468373 bytes).
 PDF statistics:
- 1135 PDF objects out of 1200 (max. 8388607)
- 1035 compressed objects within 11 object streams
- 98 named destinations out of 1000 (max. 500000)
+ 1162 PDF objects out of 1200 (max. 8388607)
+ 1061 compressed objects within 11 object streams
+ 100 named destinations out of 1000 (max. 500000)
  251 words of extra memory for PDF output out of 10000 (max. 10000000)
 

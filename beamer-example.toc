@@ -15,7 +15,7 @@
 \beamer@subsectionintoc {6}{1}{Alchemy.js}{17}{0}{5}
 \beamer@sectionintoc {7}{Overall System}{23}{0}{6}
 \beamer@sectionintoc {8}{Conclusions}{29}{0}{7}
-\beamer@subsectionintoc {8}{1}{Personal Learning}{31}{0}{7}
-\beamer@subsectionintoc {8}{2}{Softwares and tool kits that were used}{32}{0}{7}
-\beamer@sectionintoc {9}{References}{33}{0}{8}
-\beamer@sectionintoc {10}{Gracies}{34}{0}{9}
+\beamer@subsectionintoc {8}{1}{Personal Learning}{32}{0}{7}
+\beamer@subsectionintoc {8}{2}{Softwares and tool kits that were used}{33}{0}{7}
+\beamer@sectionintoc {9}{References}{34}{0}{8}
+\beamer@sectionintoc {10}{Gracies}{35}{0}{9}
