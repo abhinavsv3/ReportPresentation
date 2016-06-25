@@ -115,53 +115,13 @@ network theoretic tools.
 \subsection{Louvain Method} \frame{
 \frametitle{Louvain Algorithm \cite{communitypaper}}
 Louvain algorithms is the state of the art community detection Algorithm. Louvain algorithm attempts to maximize modularity.
-This algorithm has two phases. The diagram shows the 
 \\
 
 \begin{figure}[H]
 \includegraphics[scale=0.3]{loustep.png}
-\caption{\label{loupic} Visualization of the steps of our algorithm.  This was taken from the paper "Fast unfolding of communities in large networks" \cite{Louvain}}
+\caption{\label{loupic} Image SOurce: "Fast unfolding of communities in large networks" \cite{Louvain}}
 \centering
 \end{figure}
-}
-
-\frame{
-\frametitle{Louvain Algorithm Pseudocode}
-Louvain Algorithm Pseudocode:
-\begin{enumerate}
-\item Repeat until local optimum is reached:
-\begin{enumerate}
-\item Phase1 : Split or partition the graph by optimizing modularity greedily
-\item Phase2 : Agglomerate the found clusters into new nodes
-\end{enumerate}
-\end{enumerate}
-}
-\subsubsection[Phase1]{Louvain Method} 
-\frame{
-\frametitle{First phase in Louvain}
-Louvain Algorithm Pseudocode for Phase1:
-\begin{enumerate}
-\item Assign a different community to each node.
-\item For each node $v_i$
-\begin{itemize}
-\item For each $v_j$ $\in$ N($v_i$),consider removing $v_i$ from community of $v_i$ and place it in the community of $v_j$
-\item Choose $v_i$ into community of neighbour that
-leads to highest modularity gain (Greedy Choice).
-\end{itemize}
-\item Repeat until no improvement can be done
-\end{enumerate}
-}
-
-\subsubsection[Phase2]{Louvain Method} 
-\frame{
-\frametitle{Second phase in Louvain}
-Louvain Algorithm Pseudocode for Phase2:
-\begin{enumerate}
-\item Let each community $C_i$ form a new node $v_i$
-\item  Let the edges between new nodes $v_i$ and $v_j$ be the sum of edges
-between nodes in $C_i$ and $C_j$ in the previous graph
-\end{enumerate}
-
 }
 
 \subsubsection[Mode of implementation]{Mode of implementation} 
@@ -183,7 +143,7 @@ between nodes in $C_i$ and $C_j$ in the previous graph
 
 	\begin{figure}
 	\centering
-	\includegraphics[scale=0.3]{e2000c.png}
+	\includegraphics[scale=0.2]{e2000c.png}
 	\end{figure}
 
 }
@@ -194,16 +154,7 @@ between nodes in $C_i$ and $C_j$ in the previous graph
 
 	\begin{figure}
 	\centering
-	\includegraphics[scale=0.4]{snap1.png}
-	\end{figure}
-
-}
-\frame{
-\frametitle{SNAP Experiments}
-
-	\begin{figure}
-	\centering
-	\includegraphics[scale=0.4]{snapg.png}
+	\includegraphics[scale=0.2]{snapg1.png}
 	\end{figure}
 
 }

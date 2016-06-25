@@ -5,16 +5,14 @@
 \beamer@sectionintoc {4}{State-of-the-art in Community Detection}{7}{0}{3}
 \beamer@sectionintoc {5}{Louvain Community Detection Algorithm}{8}{0}{4}
 \beamer@subsectionintoc {5}{1}{Louvain Method}{8}{0}{4}
-\beamer@subsubsectionintoc {5}{1}{1}{Louvain Method}{10}{0}{4}
-\beamer@subsubsectionintoc {5}{1}{2}{Louvain Method}{11}{0}{4}
-\beamer@subsubsectionintoc {5}{1}{3}{Mode of implementation}{12}{0}{4}
-\beamer@subsubsectionintoc {5}{1}{4}{Louvain Method}{13}{0}{4}
-\beamer@subsubsectionintoc {5}{1}{5}{Louvain Method}{14}{0}{4}
-\beamer@subsubsectionintoc {5}{1}{6}{Louvain Method}{16}{0}{4}
-\beamer@sectionintoc {6}{Visualization Libraries}{17}{0}{5}
-\beamer@subsectionintoc {6}{1}{Alchemy.js}{18}{0}{5}
-\beamer@sectionintoc {7}{Overall System}{24}{0}{6}
-\beamer@sectionintoc {8}{Conclusions}{30}{0}{7}
-\beamer@subsectionintoc {8}{1}{Personal Learning}{32}{0}{7}
-\beamer@sectionintoc {9}{References}{33}{0}{8}
-\beamer@sectionintoc {10}{Gracies}{34}{0}{9}
+\beamer@subsubsectionintoc {5}{1}{1}{Mode of implementation}{9}{0}{4}
+\beamer@subsubsectionintoc {5}{1}{2}{Louvain Method}{10}{0}{4}
+\beamer@subsubsectionintoc {5}{1}{3}{Louvain Method}{11}{0}{4}
+\beamer@subsubsectionintoc {5}{1}{4}{Louvain Method}{12}{0}{4}
+\beamer@sectionintoc {6}{Visualization Libraries}{13}{0}{5}
+\beamer@subsectionintoc {6}{1}{Alchemy.js}{14}{0}{5}
+\beamer@sectionintoc {7}{Overall System}{20}{0}{6}
+\beamer@sectionintoc {8}{Conclusions}{26}{0}{7}
+\beamer@subsectionintoc {8}{1}{Personal Learning}{28}{0}{7}
+\beamer@sectionintoc {9}{References}{29}{0}{8}
+\beamer@sectionintoc {10}{Gracies}{30}{0}{9}
