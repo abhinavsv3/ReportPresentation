@@ -1,0 +1,354 @@
+\documentclass{beamer}
+
+\usetheme{Hokie}
+\usepackage{palatino}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+
+\title[Graph Viz. Project]{Graph Algorithms for  Visualizing High Dimensional Data}
+\author[Abhinav S V]{Abhinav Shankaranarayanan Venkataraman\inst{1} \\{\small Directed by : Prof. Ricard Gavalda\inst{2} and Prof. Marta Arias\inst{2}}}
+\institute[SASTRA Unviersity]{\inst{1} SASTRA University, Thanjavur, Tamil Nadu, India \and %
+                      \inst{2} Universitat Politecnica de Catalunya (UPC), Barcelona}
+\date{4 July 2016}
+
+\graphicspath{{./}}
+\DeclareGraphicsExtensions{.png}
+\logo{\includegraphics[height=0.5cm]{sastralogo.png}}
+\setbeamertemplate*{logo}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal
+\begin{document}
+
+\frame{\titlepage}
+
+\section[Outline]{Outline}
+\frame{
+\frametitle{Outline}
+\begin{enumerate}
+\item Introduction
+\item Community Detection
+\item Visualization Module
+\item Overall system
+\item Conclusion
+\end{enumerate}
+}
+
+\section*{Project Details}
+\frame{
+\frametitle{Project Research Group}
+\begin{itemize}
+\item This project is carried out within the LARCA research group at UPC .
+\item Researchers within LARCA have in the last two years began
+collaborations with hospital and health agencies for the analysis of electronic
+healthcare records [EHR].
+\item In previous work within the group, they proposed to organize the information in EHR in the form of graphs and hyper-
+graphs, which can then be navigated by experts and mined with graph and
+network theoretic tools.
+\end{itemize}
+}
+
+\section{Introduction}
+
+\subsection*{Goals of the Project}
+\frame
+{
+	\frametitle{Goal of the Project}
+	\begin{enumerate}
+\item To survey a few algorithms that aim in community finding keeping in mind that the input is from the medical domain. 
+\item To choose an algorithms that benefit the purpose of organizing graphs from medical domain and for the purpose of visualization.
+\item To implement the algorithms and test the efficiency of the algorithm using variety of graphs.
+\item To build a Graphic User Interface (GUI) which enables visualization of the raw input on a web browser by drawing graphs.
+
+\end{enumerate}
+}
+\subsection*{Planning And Budget}
+
+\frame{
+\frametitle{Planning and Budget}
+\begin{enumerate}
+\item Planning: 
+\begin{itemize}
+\item Required knowledge acquisition
+\item Paper Analysis
+\item Design and Implementation
+\item Testing I
+\item Testing II
+
+\item Report Writing
+
+\end{itemize} 
+\item Economic budget:  Hardware  budget, Software Budget, Human Resource Budget \\
+\item Sustainability: Economically sustainable, Socially sustainable, Environmentally sustainable\\
+\end{enumerate}
+}
+
+\subsection[What is a Community?]{Community Structure}
+\frame{
+\frametitle{What is Community?}
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.3]{comm.png}
+	\caption{Image Source: Fortunato, Santo and Barthelemy, Marc 2007}
+	\label{fig:test_down_sampling}
+	\end{figure}
+
+}
+
+\section{State-of-the-art in Community Detection}
+
+\frame{
+\frametitle{State-of-the-art in Community Detection}
+\begin{enumerate}
+\item Communities are a part of the graph that have fewer ties with the rest of the system.
+\item A community should be densely connected, well separated from the rest of the network and the members of the network should be more similar among themselves than with the rest.
+\end{enumerate}
+
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.3]{lou.png}
+	\caption{Exploring state of the art: \cite{generalcommunity}}
+	\label{fig:test_down_sampling}
+	\end{figure}
+		
+}
+\section{Louvain Community Detection Algorithm}
+
+\subsection{Louvain Method} \frame{
+\frametitle{Louvain Algorithm \cite{communitypaper}}
+Louvain algorithms is the state of the art community detection Algorithm. Louvain algorithm attempts to maximize modularity.
+\\
+
+\begin{figure}[H]
+\includegraphics[scale=0.3]{loustep.png}
+\caption{\label{loupic} Image Source: "Fast unfolding of communities in large networks" \cite{Louvain}}
+\centering
+\end{figure}
+}
+
+\subsubsection[Mode of implementation]{Mode of implementation} 
+\frame{
+\frametitle{Mode of implementation}
+\begin{enumerate}
+
+\item The implementation of the Algorithm is in Python. pyLouvain is code that is freely available although considering the task performed by the project it is tough to use pyLouvain directly. Hence modifications were made to pyLouvain and some part of the code was reused. 
+
+\item  The input data structure was altered. The Input file is stored in a matrix and its transpose is used to get the node set. This is  used to for a edge dictionary. 
+
+\item  The first phase of pyLouvain is used as it is in the project and the second phase has been modified in the manner that relabelling is done.
+\end{enumerate}
+}
+
+\subsubsection[Experiments]{Louvain Method} 
+\frame{
+\frametitle{N until 2000 and Q=0.4, Scale-Free degree distribution Experiments}
+
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{e2000c.png}
+	\end{figure}
+
+}
+
+\subsubsection[Experiments]{Louvain Method} 
+\frame{
+\frametitle{Experiments on Real World Graph}
+
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{snapg1.png}
+	\end{figure}
+
+}
+\subsubsection[Experiments]{Louvain Method} 
+\frame{
+\frametitle{Famous Graphs Experiments}
+
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.4]{fam3.png}
+	\end{figure}
+
+}
+
+
+
+\section{Visualization Libraries}
+\frame{
+\frametitle{Visualization  Libraries}
+\begin{table}
+	\centering
+	\begin{tabular}{|c|c|c|c|c|} \hline \hline
+	     & Protovis.js         & D3.js & Alchemy.js & Gephi      \\ \hline \hline
+ JavaScript  & \checkmark   &\checkmark & \checkmark &  \\ \hline \hline
+ JSON Object & \checkmark  &\checkmark &\checkmark & \\ \hline \hline
+ Robust & &\checkmark & & \checkmark  \\ \hline \hline
+Less Overhead & & &\checkmark &  \\ \hline \hline
+	
+	\end{tabular}
+	\caption{Comparing Visualization methods}
+	\label{tbl:kramer}
+	\end{table}
+}
+
+
+\subsection{Alchemy.js}
+\frame{
+\begin{enumerate}
+\item Alchemy needs three main units to form as an application namely: alchemy.css,
+alchemy.js and data.
+\item Five simple steps to connect the JSON object to draw the graph.
+\item Tests:
+\end{enumerate}
+
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{t1.png}
+	\end{figure}
+}
+\frame{
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{t2.png}
+	\end{figure}
+}
+\frame{
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{t3.png}
+	\end{figure}
+}
+\frame{
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{t4.png}
+	\end{figure}
+}
+\frame{
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{t5.png}
+	\end{figure}
+}
+\frame{
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{t7.png}
+	\end{figure}
+}
+\section{Overall System}
+\frame{
+\frametitle{Web framework and Front-end}
+\begin{enumerate}
+\item Angular.js was recommended by the main project, but too complex for our requirement.
+\item Django, Grok and Web.py were considered. Web.py was finally chosen.
+\item Bootstrap was used as the front-end framework. It was used for the front-end contrasting with web.py which was used behind.
+
+\end{enumerate}
+}
+\frame{
+\frametitle{How it works?}
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.4]{arc2.png}
+	\end{figure}
+}
+
+\frame{
+\frametitle{How it works?}
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{s1.png}
+	\end{figure}
+}
+
+\frame{
+\frametitle{How it works?}
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{s2.png}
+	\end{figure}
+}
+
+\frame{
+\frametitle{How it works?}
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{s4.png}
+	\end{figure}
+}
+
+\frame{
+\frametitle{How it works?}
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{serr.png}
+	\end{figure}
+}
+\section{Conclusions}
+\frame{
+\frametitle{Conclusion}
+\begin{enumerate}
+\item In the project we have surveyed a few algorithms that aim in community
+finding keeping in mind that the input
+is taken from health care domain.
+\item Louvain Community detection algorithm was chosen for community detection and for visualization. Alchemy.js were selected after considering
+the input and a few state of the art algorithms.
+\item The algorithms and frameworks thus found were implemented and tests
+were conducted for finding the efficiency of the algorithms.
+\item A GUI implementing Web.py and Bootstrap was created combining the
+visualization and the computation.
+\end{enumerate}
+
+}
+
+\frame
+{
+	\frametitle{Challenges}
+There were quite a few challenges in the project. I was from a pure theoretical background, so I had to learn all the following from scratch:
+\begin{enumerate}
+\item Python
+\item JavaScript
+\item WebFrame works - Django, web.py
+\item Learning Alchemy.js and web.py
+\item I had some experience in Linux, git and github
+\end{enumerate} 
+}
+
+
+\subsection{Personal Learning}
+\frame
+{
+	\frametitle{Personal Learning}
+\begin{enumerate}
+\item Exploring and trying many softwares.
+\item Data visualization and Algorithms
+\item Building a web application
+\item Python and JavaScript in Depth
+\end{enumerate}
+}
+
+
+
+
+\section{References}
+
+\frame
+{
+	\frametitle{List of References that were used}
+
+\bibliographystyle{plain}
+\bibliography{mybib}{}
+}
+
+\section{Gracies}
+\frame
+{
+	\frametitle{Thank you}
+Thank you for all those who supported me throughout the project.\\
+It was a Great time at Barcelona working with Prof. Ricard and Prof. Marta.
+
+}
+
+\end{document}

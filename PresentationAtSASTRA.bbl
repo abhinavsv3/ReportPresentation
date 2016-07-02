@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{Louvain}
+Vincent~D Blondel, Jean-Loup Guillaume, Renaud Lambiotte, and Etienne Lefebvre.
+\newblock Fast unfolding of communities in large networks.
+\newblock {\em Journal of statistical mechanics: theory and experiment},
+  2008(10):P10008, 2008.
+
+\bibitem{communitypaper}
+Santo Fortunato.
+\newblock Community detection in graphs.
+\newblock {\em Physics reports}, 486(3):75--174, 2010.
+
+\bibitem{generalcommunity}
+Stanislav Sobolevsky, Riccardo Campari, Alexander Belyi, and Carlo Ratti.
+\newblock General optimization technique for high-quality community detection
+  in complex networks.
+\newblock {\em Physical Review E}, 90(1):012811, 2014.
+
+\end{thebibliography}
